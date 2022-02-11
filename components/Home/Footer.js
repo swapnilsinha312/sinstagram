@@ -9,10 +9,10 @@ export default function Footer({navigation,user}){
 
   function onClickActive(n)
   {
-    if(n-4===0){navigation.push('HomeScreen');}
-    if(n-1===0){navigation.push('HomeScreen');}
-    if(n-2===0){navigation.push('NewPostScreen');}
-    if(n-3===0){navigation.push('NewPostScreen');}
+    if(n-4===0) {navigation.push('Creator');}
+    if(n-1===0) {navigation.push('HomeScreen');}
+    if(n-2===0) {navigation.push('Creator');}
+    if(n-3===0) {navigation.push('NewPostScreen');}
     setActive(n);
   }
 

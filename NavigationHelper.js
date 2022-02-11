@@ -6,6 +6,7 @@ import HomeScreen from './components/Screens/HomeScreen';
 import NewPostScreen from './components/Screens/NewPostScreen';
 import LoginScreen from './components/Screens/LoginScreen';
 import SignupScreen from './components/Screens/SignupScreen';
+import Creator from './components/Screens/Creator';
 
 const Stack=createStackNavigator()
 
@@ -33,6 +34,7 @@ export const SignedInScreens=()=> {
           >
             <Stack.Screen name='HomeScreen' component={HomeScreen} />
             <Stack.Screen name='NewPostScreen' component={NewPostScreen} />
+            <Stack.Screen name='Creator' component={Creator} />
             {/* <Stack.Screen name='LoginScreen' component={LoginScreen} />
             <Stack.Screen name='SignupScreen' component={SignupScreen} /> */}
           </Stack.Navigator>
@@ -50,6 +52,7 @@ export const SignedOutScreens=()=> {
             <Stack.Screen name='NewPostScreen' component={NewPostScreen} /> */}
             <Stack.Screen name='LoginScreen' component={LoginScreen} />
             <Stack.Screen name='SignupScreen' component={SignupScreen} />
+            <Stack.Screen name='Creator' component={Creator} />
           </Stack.Navigator>
       </NavigationContainer>
     );
