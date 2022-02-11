@@ -1,0 +1,26 @@
+export const USERS=[
+    {
+        userName:'Name1',
+        image:'https://preview.redd.it/gvmn54po4vf81.jpg?width=640&crop=smart&auto=webp&s=e377961742a9ee3fa66dee68fcc44ad20219a775'
+    },
+    {
+        userName:'Name2',
+        image:'https://preview.redd.it/gvmn54po4vf81.jpg?width=640&crop=smart&auto=webp&s=e377961742a9ee3fa66dee68fcc44ad20219a775'
+    },
+    {
+        userName:'Name3Name3Name3',
+        image:'https://preview.redd.it/gvmn54po4vf81.jpg?width=640&crop=smart&auto=webp&s=e377961742a9ee3fa66dee68fcc44ad20219a775'
+    },
+    {
+        userName:'Name4',
+        image:'https://preview.redd.it/gvmn54po4vf81.jpg?width=640&crop=smart&auto=webp&s=e377961742a9ee3fa66dee68fcc44ad20219a775'
+    },
+    {
+        userName:'Name5',
+        image:'https://preview.redd.it/gvmn54po4vf81.jpg?width=640&crop=smart&auto=webp&s=e377961742a9ee3fa66dee68fcc44ad20219a775'
+    },
+    {
+        userName:'Name6',
+        image:'https://preview.redd.it/gvmn54po4vf81.jpg?width=640&crop=smart&auto=webp&s=e377961742a9ee3fa66dee68fcc44ad20219a775'
+    },
+]
